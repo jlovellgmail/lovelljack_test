@@ -10,7 +10,7 @@ function getdata(){
 		
 		// for local testing
 		//$.getScript('data.js', function()
-		$.getScript('http://jl646.com/data.js', function()
+		$.getScript('http://lovelljack.com/lovelljack_test/data.js', function()
 
 		{
 		    // script is now loaded and executed.
@@ -27,7 +27,7 @@ function getdata(){
 
 function makeitems(){
 	// create thumbnails
-	var th_folder = "/images/";
+	var th_folder = "images/";
 	var items = 
 		d3.select(".workbody .content")
 		.selectAll(".item")

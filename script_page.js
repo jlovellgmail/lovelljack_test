@@ -2,8 +2,8 @@ cout = console.log;
 var pagename = "project.html";
 var keyname = "project";
 var pi = undefined;
-var th_folder = "/images/";
-var datafile = "http://jl646.com/data.js";
+var th_folder = "images/";
+var datafile = "http://lovelljack.com/lovelljack_test/data.js";
 
 
 
@@ -28,9 +28,6 @@ function getdata(){
 		$(document).ready(readyhandler);
 	}
 }
-
-
-
 
 
 function readyhandler(){
